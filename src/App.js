@@ -5,7 +5,7 @@ import { NavBar, Feed, VideoDetail, ChannelDetail, SearchFeed } from './componen
 
 const App = () => (
   <BrowserRouter>
-    <Box sx={{ backgroundColor: 'red' }}>
+    <Box sx={{ backgroundColor: '#000' }}>
       <NavBar />
       <Routes>
         <Route path="/" exact element={<Feed />} />
