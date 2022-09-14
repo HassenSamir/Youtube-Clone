@@ -1,5 +1,5 @@
 import React from "react";
-import { Stack, Box, Grid } from "@mui/material";
+import { Grid } from "@mui/material";
 
 import { ChannelCard, Loader, VideoCard } from "./";
 
